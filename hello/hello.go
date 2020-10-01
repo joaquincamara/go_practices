@@ -17,7 +17,7 @@ func main() {
 	// A slice of names.
 	names := []string{"Joaquin", "Theodrastus Bombastus Hoenheimen", "Sofie"}
 
-	// Request greeting messages for the names.
+	// Request greeting messages for the names. in a func
 	messages, err := greetings.Hellos(names)
 	if err != nil {
 		log.Fatal(err)
